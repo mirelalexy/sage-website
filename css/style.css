@@ -55,10 +55,23 @@
 }
 
 @media (max-width:569px){
+	.flex-container{
+		display: flex !important;
+		margin-left: auto;
+		margin-right: auto;
+		align-items: center !important;
+	}
+
 	.gradient-background{
 		background: linear-gradient(300deg, #3c7962, #77bba2, #eae7e1);
 		background-size: 180% 180%;
 		animation: gradient 15s ease infinite;
-		height: 100vh;
+		height: 93vh;
+	}
+	.phone{
+		margin-top: 50px;
+		justify-content: center;
+		height: 500px;
+		width: 500px;
 	}
 }
